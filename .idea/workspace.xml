@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="279d6555-3391-4537-bed3-dc030d214873" name="Default Changelist" comment="Implemented basic console bank account class">
-      <change afterPath="$PROJECT_DIR$/src/com/Orion/BankAccount.java" afterDir="false" />
+    <list default="true" id="279d6555-3391-4537-bed3-dc030d214873" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Orion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Orion/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Orion/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Orion/BankAccount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +16,22 @@
     <session id="1038380916">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2703" />
-          <entry key="txt" value="68" />
+          <entry key="java" value="2974" />
+          <entry key="txt" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2703" />
-          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="JAVA" value="2974" />
+          <entry key="PLAIN_TEXT" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,42 +48,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Orion/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/Orion/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#830#831#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1175#1176#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="331">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
@@ -107,8 +86,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Orion/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/com/Orion/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/Orion/BankAccount.java" />
       </list>
     </option>
   </component>
@@ -118,10 +97,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="460" />
+    <option name="y" value="151" />
+    <option name="width" value="725" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -132,7 +112,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,12 +134,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548479355396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548685298270" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -203,7 +183,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548473654825</updated>
-      <workItem from="1548473656126" duration="4216000" />
+      <workItem from="1548473656126" duration="4995000" />
+      <workItem from="1548778541781" duration="1211000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1548473847971</created>
@@ -212,44 +193,50 @@
       <option name="project" value="LOCAL" />
       <updated>1548473847971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Access can be private ;)">
+      <created>1548479419624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548479419624</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4216000" />
+    <option name="totallyTimeSpent" value="6206000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17891817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.030872483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32998565" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32998565" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998565" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32998565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3177305" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32998565" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,42 +248,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Implemented basic console bank account class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented basic console bank account class" />
+    <MESSAGE value="Slightly fancier" />
+    <MESSAGE value="Access can be private ;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Access can be private ;)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Orion/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Orion/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1175#1176#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Orion/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Orion/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="331">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>

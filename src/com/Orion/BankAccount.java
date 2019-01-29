@@ -4,7 +4,7 @@ import java.util.Scanner;
 class BankAccount {
 
     private int accountNumber;
-    private int accountBalance;
+    private double accountBalance;
     private String customerName;
     private String customerEmail;
     private String customerPhone;
@@ -28,15 +28,15 @@ class BankAccount {
         }
     }
 
-    private void setAccountBalance (int accountBalance) {
+    private void setAccountBalance (double accountBalance) {
         this.accountBalance = accountBalance;
     }
 
     void setAccountBalancePretty (Scanner scanner) {
         while (this.accountBalance == 0) {
             System.out.println("What is your account balance?");
-            if (scanner.hasNextInt()) {
-                this.setAccountBalance(scanner.nextInt());
+            if (scanner.hasNextDouble()) {
+                this.setAccountBalance(scanner.nextDouble());
                 System.out.println("Account balance set as " + this.getAccountBalance() + ".");
                 scanner.nextLine();
             } else {
@@ -63,7 +63,7 @@ class BankAccount {
         return accountNumber;
     }
 
-    private int getAccountBalance() {
+    private double getAccountBalance() {
         return accountBalance;
     }
 
@@ -80,7 +80,7 @@ class BankAccount {
     }
 
     // Other methods
-    void depositFunds (int depositAmount) {
+    void depositFunds (double depositAmount) {
         if (depositAmount < 0) {
             System.out.println("Cannot deposit a negative amount.");
         } else if (depositAmount == 0) {
@@ -92,15 +92,19 @@ class BankAccount {
         }
     }
 
-    void withdrawFunds (int withdrawalAmount) {
+    void withdrawFunds (double withdrawalAmount) {
         if (withdrawalAmount < 0) {
             System.out.println("Cannot withdraw a negative amount.");
         } else if (withdrawalAmount == 0) {
             System.out.println("Cannot withdraw 0.");
         } else {
-            this.accountBalance -= withdrawalAmount;
-            System.out.println("Withdrew " + withdrawalAmount + " from account.");
-            System.out.println("Account balance is now " + this.accountBalance);
+            if (this.accountBalance - withdrawalAmount < 0) {
+                System.out.println("Account balance is " + this.accountBalance + ".  Cannot withdraw " + withdrawalAmount + ".");
+            } else {
+                this.accountBalance -= withdrawalAmount;
+                System.out.println("Withdrew " + withdrawalAmount + " from account.");
+                System.out.println("Account balance is now " + this.accountBalance);
+            }
         }
     }
 
